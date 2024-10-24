@@ -1,0 +1,53 @@
+/* Contact.module.css */
+.contactContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contactContainer h2 {
+    color: #333;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contactList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contactList li {
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks {
+    margin-top: 30px;
+  }
+  
+  .socialLinks h3 {
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .socialLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 600px) {
+    .contactContainer {
+      padding: 10px;
+    }
+    
+    .socialLinks a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }

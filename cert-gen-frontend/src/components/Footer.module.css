@@ -1,0 +1,40 @@
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background-color: #081b59;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+  }
+  
+  .footerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .socialLinks {
+    margin-top: 10px;
+  }
+  
+  .socialLinks a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .socialLinks a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      padding: 0.5rem;
+    }
+  
+    .socialLinks a {
+      display: block;
+      margin: 5px 0;
+    }
+  }

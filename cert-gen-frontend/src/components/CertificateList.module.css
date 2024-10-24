@@ -1,0 +1,12 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+  }
